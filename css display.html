@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .img{
+            float: left;
+            border: 1px solid black;
+            margin: 4px;
+            padding: 6px;
+            width: 150px;
+        }
+        button{
+            width: 100%;
+        }
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+    
+
+    <div class="img" id="imgbox1">Resim 1 <br>
+    <img src="5.jpg" style="width: 100%;">
+    <button onclick="removeelemnt()">Kaldir</button>
+
+    </div>
+
+    <div class="img" id="imgbox2">Resim 2 <br> 
+    <img src="6.jpg" style="width: 100%;">
+    <button onclick="hideelement()">Gizle</button>
+
+    </div>
+
+    <div class="img" id="imgbox3">Resim 3 <br> 
+    <img src="7.png" style="width: 100%;">
+    <button onclick="resetelement()">Resetle</button>
+
+
+    </div>
+
+    <script>
+        function removeelemnt(){
+
+            document.getElementById("imgbox1").style.display="none";
+        }
+        function hideelement(){
+            
+            document.getElementById("imgbox2").style.visibility="hidden";
+        }
+        function resetelement(){
+
+            document.getElementById("imgbox1").style.display="inline";
+            document.getElementById("imgbox2").style.visibility="visible";
+        }
+
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
