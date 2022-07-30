@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box{
+            float: left;
+            border: 1px solid red;
+            padding: 50px;
+            text-align: center;
+            width: 33%;
+        }
+        .firat{
+            margin-bottom: 10px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .firat::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <h2>Eşit Kutular</h2>
+    <div class="firat">
+
+    <div class="box" style="background-color: aquamarine;">
+        <p>Yazı</p>
+    </div>
+
+    <div class="box" style="background-color: aquamarine;">
+        <p>Yazı</p>
+    </div>
+
+    <div class="box" style="background-color: aquamarine;">
+        <p>Yazı</p>
+    </div>
+
+
+    </div>
+   
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, perspiciatis numquam? Placeat cum eos cupiditate quos, quas sequi nostrum? Ex totam expedita similique molestias, ullam aperiam? Dolores tempore recusandae nobis quasi a maxime esse ea provident dicta vero corporis veniam, ut cum! Nesciunt accusantium adipisci neque delectus autem suscipit! Illo doloribus deleniti perferendis itaque tempora esse voluptates quasi. Suscipit sed esse molestias minus ex dolores unde reprehenderit hic error nostrum, tenetur dignissimos fuga cupiditate deleniti, atque ab ea reiciendis repellendus sequi! Commodi, aut accusantium iusto laboriosam ratione maiores voluptatem velit dolor temporibus veritatis? Reprehenderit provident consectetur asperiores, ipsum labore officia!</p>
+
+
+    
+</body>
+</html>
