@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input:checked{
+            height: 50px;
+            width: 50px;
+        }
+
+        input[type=text]:enabled{
+            background-color: aquamarine;
+
+        }
+        input[type=text]:disabled{
+            background-color: chartreuse;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <form action="">
+        
+        <input type="radio" checked="checked" value="Erkek" name="Cinsiyet">
+        <input type="radio" value="kadın" name="cinsiyet">
+        <input type="checkbox" checked="checked" value="bisiklet">
+        <input type="checkbox" value="Araba">
+        <br>
+        <br>
+        <br>
+    
+    
+        Ad soyad: <input type="text" checked="checked" value="Firat Coskun"> <br>
+        Mahalle: <input type="text" value="Batıkent"> <br>
+        il: <input type="text" value="Mersin" > <br>
+        ilçe: <input type="text" disabled="disabled" value="Yenişehir">
+
+
+
+
+
+
+
+    </form>
+    
+
+
+
+
+
+</body>
+</html>
