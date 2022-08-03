@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .button{
+            padding: 25px;
+            background-color: green;
+            border: none;
+            color: white;
+            font-size: large;
+            cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+
+        }
+        .firat{
+            position: relative;
+            display: inline-block;
+        }
+        .coskun{
+            position: absolute;
+            display: none;
+        }
+        .coskun a:hover{
+            background-color:hotpink;
+        }
+        .coskun a{
+            padding: 12px 15px;
+            display: block;
+            color: black;
+            min-width: 200px;
+            box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
+            background-color: aquamarine;
+        }
+        .firat:hover .coskun{
+            display: block;
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+
+
+    <h1>Hoverable Dropdown</h1>
+
+    <div class="firat">
+        <button class="button">Butona TIKLA</button>
+        <div class="coskun">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+    
+</body>
+</html>
