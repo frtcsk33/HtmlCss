@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .button{
+            padding: 25px;
+            background-color: green;
+            border: none;
+            color: white;
+            font-size: large;
+            cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+            
+        }
+        .firat{
+            position: relative;
+            display: inline-block;
+            float: right;
+        }
+        .coskun{
+            position: absolute;
+            display: none;
+            right: 0;
+        }
+        
+        .coskun a{
+            padding: 12px 15px;
+            display: block;
+            color: black;
+            min-width: 200px;
+            box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
+            background-color: skyblue;
+            
+        }
+        .firat:hover .coskun{
+            display: block;
+        }
+        .coskun a:hover{
+            background-color: navajowhite;
+        }
+        
+        .mario{
+            background-color: grey;
+            padding: 20px;
+            text-align: center;
+            font-size: 22px;
+            color: white;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+
+
+    <h1>Hoverable Dropdown</h1>
+
+    <div class="firat">
+        <img src="4.jpg" alt="" width="100" height="50">
+        <div class="coskun">
+           <img src="4.jpg" alt="" width="300s">
+           <div class="mario">Mario, luigi and yoshi</div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+    
+</body>
+</html>
