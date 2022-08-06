@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div.gallery{
+            border: 1px solid rgb(237, 227, 227);
+        }
+        div.gallery img{
+            width: 100%;
+            height: auto;
+        }
+        div.desc{
+            padding: 15px;
+            text-align: center;
+        }
+        div.gallery:hover{
+            border: 1px solid black;
+        }
+        .responsive{
+            float: left;
+            width: 25%;
+            padding: 0 5px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .clearfix::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media only screen and (max-width:700px ){
+            .responsive{
+                width: 50%;
+            }
+        }
+        @media only screen and (max-width:400px ){
+            .responsive{
+                width: 100%;
+            }
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+    
+    <div class="responsive">
+
+    <div class="gallery">
+
+    <a  target="_blank" href="bes.jpg">
+        <img src="bes.jpg" alt="Yeni 1" width="600" height="400">
+
+    </a>
+    <div class="desc">
+        Güzel bir resim
+    </div>
+    </div>
+    </div>
+
+
+    <div class="responsive">
+
+    <div class="gallery">
+
+    <a target="_blank" href="altı.jpg">
+        <img src="altı.jpg" alt="Yeni 2" width="600" height="400">
+
+
+    </a>
+    <div  class="desc">
+        Güzel bir resim
+    </div>
+    </div>
+    </div>
+
+    <div class="responsive">
+    <div class="gallery">
+
+    <a target="_blank" href="yedi.jpg">
+        <img src="yedi.jpg" alt="Yeni 3" width="600" height="400">
+
+    </a>
+
+    <div  class="desc">
+        Güzel bir resim
+    </div>
+    </div>
+    </div>
+
+    <div class="responsive">
+    <div class="gallery">
+
+    <a target="_blank" href="sekiz.jpg" >
+        <img src="sekiz.jpg" alt="Yeni 4" width="600" height="400">
+
+    </a>
+    <div  class="desc">
+        Güzel bir resim
+    </div>
+    </div>
+    </div>
+
+
+    <div class="clear fix"></div>
+
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ipsum delectus quam vel eligendi nulla fugit eveniet harum quod unde dolores enim aliquid nostrum ipsa, tempora mollitia expedita praesentium cupiditate at quasi, reiciendis minima in magni. Obcaecati quidem doloremque ex aut esse hic a ad unde, explicabo temporibus culpa velit, porro voluptate molestias aperiam odio laboriosam, aliquid magnam illo ducimus eaque! Quo nulla perferendis inventore, quibusdam hic, maiores laudantium, architecto nihil nemo odio aliquam veniam natus iure! Eum expedita deleniti doloremque saepe reprehenderit beatae maiores dolores consectetur placeat quod. Molestiae natus molestias quae eaque eum magni est vitae ipsa fugiat.,</p>
+
+    </div>
+
+
+
+</body>
+</html>
