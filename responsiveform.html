@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .col-25{
+            float: left;
+            width: 25%;
+            margin-top: 10px;
+        }
+        .col-75{
+            float: left;
+            width: 75%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        input[type=text], select, textarea{
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid red;
+            
+            resize: vertical;
+            width: 100%;
+        }
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        input[type=submit]{
+            float: right;
+            background-color: green;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+        .container{
+            background-color: gainsboro;
+            border-radius: 5px;
+            padding: 20px;
+        }
+        input[type=submit]:hover{
+            background-color: greenyellow;
+            cursor: pointer;
+        }
+        @media screen and (max-width:603px){
+            .col-25, .col-75, input[type=submit]{
+
+                width: 100%;
+
+            }
+
+
+
+        }
+
+
+    </style>
+
+
+
+
+
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <form action="/Home/FormDoldur">
+            
+            <div class="row">
+
+                <div class="col-25">
+                    <label for="Firstname">FirstName</label>
+
+                </div>
+                <div class="col-75">
+                    <input type="text" name="Firstname" placeholder="Your first name">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-25">
+                    <label for="Lastname">LastName</label>
+
+                </div>
+
+                <div class="col-75">
+                    <input type="text" name="Lastname" placeholder="Your last name">
+
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-25">
+                    <label for="Country">Country</label>
+                </div>
+
+                <div class="col-75">
+                    <select name="Country">
+                        <option value="tr">Türkiye</option>
+                        <option value="fr">Français</option>
+                        <option value="en">England</option>
+
+
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-25">
+                    <label for="Subject">Subject</label>
+                </div>
+
+                <div class="col-75">
+                    <textarea name="Subject" placeholder="Lütfen bir şeyler yazınız.." style="height: 150px;"></textarea>
+                
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <input type="submit" value="Kaydet">
+            </div>
+
+        </form>
+
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
