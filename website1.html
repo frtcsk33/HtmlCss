@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+            padding: 18px;
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+        .bar a{
+            text-decoration: none;
+            color: white;
+            float: left;
+            padding: 15px 18px;
+            
+        }
+        .bar{
+            overflow: hidden;
+            background-color: black;
+            
+        }
+        .bar a:hover{
+            background-color: green;
+        }
+
+        .column.side{
+            width: 25%;
+        }
+        .column.main{
+            width: 50%;
+        }
+        .column.side{
+            width: 25%;
+        }
+        .column{
+            float: left;
+            padding: 15px;
+        }
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;    
+        }
+        .footer{
+            background-color: #f2f2f2;
+            padding: 18px;
+            text-align: center;
+        }
+        @media screen and (max-width:600px){
+            .column.side{
+                width: 100%;
+            }
+            .column.main{
+                width: 100%;
+            }
+        }
+    </style>
+
+
+
+
+</head>
+<body>
+    
+
+  
+
+    <div class=" header">
+            <h1>Header</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum minus velit debitis dicta.</p>
+    </div>
+
+    <div class="bar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+    </div>
+
+    <div class="row"> 
+
+        <div class="column side"> 
+            <h2>Side</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magni est quos molestiae optio explicabo.</p>
+        </div>
+
+        <div class="column main">
+            <h2>Main Content</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, veritatis aperiam at nisi omnis animi earum ducimus dicta facilis, repudiandae laborum dolorum quos quam eius, molestiae deleniti magnam quas maxime. Dicta culpa explicabo id, in similique molestiae sunt aspernatur libero.  </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam reprehenderit expedita deleniti quas, fugiat fugit optio perferendis incidunt nihil blanditiis laborum hic officiis molestiae cum dolores quibusdam sunt quasi! Pariatur quaerat temporibus totam quas! Deleniti enim modi architecto obcaecati adipisci.</p>
+        </div>
+
+        <div class="column side"> 
+            <h2>Side</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magni est quos molestiae optio explicabo.</p>
+        </div>
+        
+
+
+
+    </div>
+
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+    
+
+
+</body>
+</html>
