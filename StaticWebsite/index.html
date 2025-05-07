@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS dosyasının yolu doğru mu? -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+    </style>
+</head>
+<body>
+    <header class="d-flex flex-wrap align-items-center justify-content-between py-2 mb-4 border-bottom" style="background-color: transparent; border: none !important;">
+        <div class="container d-flex flex-wrap align-items-center justify-content-between header-content">
+            <div class="d-flex align-items-center">
+                <img style="height: 45px; width: 45px;" src="images/Star.png" alt="Logo" class="me-2">
+                <span style="font-family: hind;" class="fs-4">Albi<span><b>reo</b></span></span>
+            </div>
+            <ul class="nav mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2">Home</a></li>
+                <li><a href="#" class="nav-link px-2">Features</a></li>
+                <li><a href="#" class="nav-link px-2">Portfolio</a></li>
+                <li><a href="#" class="nav-link px-2">Our Blogs</a></li>
+                <li><a href="#" class="nav-link px-2">Services</a></li>
+                <li><a href="#" class="nav-link px-2">Contact Us</a></li>
+            </ul>
+            <div class="text-end">
+                <a href="#" class="d-flex align-items-center dropdown-toggle" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg style="width: 20px; height: 20px; margin-top: 6px; color:black;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search me-2" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 1"/>
+                    </svg>
+                    <img style="height: 30px;" src="images/dp.png" alt="Profile" class="dropdown">
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Home</a></li>
+                    <li><a class="dropdown-item" href="#">Features</a></li>
+                    <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                    <li><a class="dropdown-item" href="#">Our Blogs</a></li>
+                    <li><a class="dropdown-item" href="#">Services</a></li>
+                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </header>
+
+    <div class="container mt-4">
+        <div class="row featurette">
+            <div id="column-side" class="col-md-8 d-flex flex-column justify-content-center align-items-start position-relative">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank" class="social-icon"><i  class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com" target="_blank" class="social-icon"><i style="color: #8e54e9;" class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="card-content">
+                    <h2 class="featurette-heading fw-normal lh-1"><span style="font-size: 80px; font-weight: bold;">Pixel Perfect.</span></h2>
+                    <h2 class="lead" style="font-size: 75px;">Build for the future</h2>
+                    <p style="font-size: 25px;">You will enjoy modern home comforts in a traditional setting.</p>
+                    <div class="dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="column-middle" class="col-md-4 position-relative">
+                <div style="width: 100%;" class="images" >
+                    <img class="backimg" src="images/comp.png" alt="Background" style="width: 715px;" > 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="mt-5 custom-section">
+        <div class="container" style="margin-top: 100px;" >
+            <div class="row">
+                <div class="col-md-4 text-start">
+                    <h2 class="heading"> We Are <br> Creative Brands.</h2>
+                    <p class="aligned-text">Quisque consequat nulla et aliquet molestie. Cras et metus nulla. Suspendisse vehicula faucibus dapibus. Aenean sit amet est tellus. Sed finibus in augue eget lobortis.</p>
+                    <p class="aligned-text">Sit amet elementum eros dictum a. Suspendisse in semper lectus. Quisque consequat nulla et aliquet molestie. Cras et metus nulla. Suspendisse vehicula faucibus dapibus. Aenean sit amet est tellus. Sed finibus in augue eget lobortis.</p>
+                    <button class="button">Get Started</button>
+                </div>
+                
+                <div class="col-md-8">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <!-- Kartlar -->
+                        <div class="col">
+                            <div class="card card-1 custom-card" >
+                                <div class="card-body d-flex flex-column align-items-start">
+                                    <div class="card-icon-container">
+                                        <img src="images/Web_Design.png" class="card-icon" alt="Web Design Icon">
+                                    </div>
+                                    <h4 class="card-title">Web Design</h4>
+                                    <p class="card-text">This is a description for the first card. It provides more details about this particular card.</p>
+                                    <a href="#" class="btn btn-link card-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card card-2 custom-card" style="margin-left: -30px;" >
+                                <div class="card-body d-flex flex-column align-items-start">
+                                    <div class="card-icon-container">
+                                        <img src="images/Digital_Markerting.png" class="card-icon" alt="Digital Marketing Icon">
+                                    </div>
+                                    <h4 class="card-title">Digital Marketing</h4>
+                                    <p class="card-text">This is a description for the second card. It gives a brief overview of the content in this card.</p>
+                                    <a href="#" class="btn btn-link card-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card card-3 custom-card" >
+                                <div class="card-body d-flex flex-column align-items-start">
+                                    <div class="card-icon-container">
+                                        <img src="images/App_Design.png" class="card-icon" alt="App Design Icon">
+                                    </div>
+                                    <h4 class="card-title">App Design</h4>
+                                    <p class="card-text">This is a description for the third card. It includes additional details about the third card's content.</p>
+                                    <a href="#" class="btn btn-link card-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card card-4 custom-card" style="margin-left: -30px;">
+                                <div class="card-body d-flex flex-column align-items-start">
+                                    <div class="card-icon-container">
+                                        <img src="images/Development.png" class="card-icon" alt="Development Icon">
+                                    </div>
+                                    <h4 class="card-title">Development</h4>
+                                    <p class="card-text">This is a description for the fourth card. It highlights key aspects of this card's content.</p>
+                                    <a href="#" class="btn btn-link card-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+ <div class="en ust">
+ <div class="custom-about"> 
+        <div class="orta">
+                <div class="container about">
+                   
+                       
+                    <div class="woman">
+                        <img src="images/woman.png" alt="Woman" class="woman">
+                    </div>
+                    <div class="text">
+                        <h2>More than 1M+ People Are Happy With Us.</h2>
+                        <p>We are a fully in-house digital agency focusing on branding, marketing, web design and development with clients ranging from start-ups.</p>
+                        <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat imperdiet turpis, ut tincidunt ipsum. Ut dictum bibendum.</p>
+                        <button>Get Started</button>
+                    </div>
+       
+                </div>
+            
+            </div>
+              
+    </div>
+    </div>
+        <div class="dis">
+
+        </div>
+
+    </div>
+
+
+    <section  style="background: #ffffff; height: 1130px;">
+    <div class="container counters">
+        <div>
+            <img src="images/Satisfy_Icon.png" alt="">
+            <div class="strings"> <h4 class="counth"> <b>100k</b></h4>
+            <p class="countp">Satisfy Customers</p></div>
+           
+        </div>
+        <div>
+            
+             <img src="images/Completed_Icon.png" alt="">
+             <div class="strings"> <h4 class="counth"> <b>1500+</b></h4>
+             <p class="countp">Completed projects</p></div>
+            
+            
+        </div>
+        <div>
+
+            <img src="images/Team_Icon.png" alt="">
+            <div class="strings">  <h4 class="counth"> <b>15+</b></h4>
+                <p class="countp">Team Members</p></div>
+          
+        </div>
+        <div>
+            <img src="images/Blog_Icon.png" alt=""> 
+            <div class="strings"> <h4 class="counth"> <b>1850+</b></h4>
+                <p class="countp">Our Blog Posts</p></div>
+            
+        </div>
+    </div>
+        <div class="title">
+       
+       
+            <h2 class="titleheading">They've Already Learned To <br> The Programming But You?</h2>   
+            <img  src="images/Vector_Pattern.png" alt="" style="height:300px; margin-top:-25px;" >
+       
+        </div>
+            <div class="members">
+                
+                <div class="img" >
+                    <img class="color" src="images/BG_Color.png" alt="">
+                    <div class="names">
+                        <h4>Mary Adams</h4>
+                        <p style="color: #ff6e69;">Founder</p>
+                   
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i  class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i style="color: #8e54e9;" class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="img"> 
+                     <img class="color" src="images/BG_Color2.png" alt="">
+                     <div class="names" >
+
+                        <h4>Neil Chad</h4>
+                        <p style="color: #7ac043;">Senior Creative Designer</p>
+                
+
+                   
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i  class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    
+                    </div>
+                <div class="img"> 
+                    <img class="color"  src="images/BG_Color3.png" alt="">
+                    <div class="names">
+
+                        <h4>Sarah Tyler</h4>
+                        <p style="color: #4776e6;">Marketing Manager</p>
+                                       
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon"><i  class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        
+            <div class="logos">
+                    <img src="images/logo-1-dark.png" alt="">
+                    <img src="images/logo-2-dark.png" alt="">
+                    <img src="images/logo-3-dark.png" alt="">
+                    <img src="images/logo-4-dark.png" alt="">
+                    <img src="images/logo-5-dark.png" alt="">
+                    <img src="images/logo-6-dark.png" alt="">
+                </div>
+
+
+       
+
+        </section>
+   
+    <div class="Portfolio">
+
+        <div class="top">
+            <div class="tum">
+              <img src="images/Vector_Pattern_Left2.png" alt="">
+             <h4>Let's See <br> Our Latest Works.</h4>    
+            </div>
+          
+            <button class="btnn">Get Started</button>
+                
+        </div>
+       
+
+        <div >
+
+       
+         <div class="kartlar">
+                <div class="kart" style="background: #cbcbcb;"></div>
+                <div class="kart" style="background: #cbcbcb;"></div>
+                <div class="kart item">
+                    <h4 >Creative Web agency</h4>
+                    <p style="font-size: 20px; font-family: hind; color: white; opacity: 0.5;">Local Company</p>
+                    <a href="#" class="btn btn-link card-link">Learn More <i class="bi bi-arrow-right"></i></a>
+         </div>
+
+         
+            </div>
+         
+        </div>
+        
+       <div class="bottom">
+
+        </div>  
+
+
+        <div class="scrollbar" >
+          
+                <div>
+
+            
+            </div>
+        </div>
+
+    </div>
+    
+    
+    <!-- JS dosyalarını yükleyin -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
